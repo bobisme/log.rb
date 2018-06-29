@@ -13,14 +13,18 @@ Usage:
 ### Basic
 
 ```ruby
-> Log.info('hello')
+Log.info('hello')
+```
+```
 {"level":"info","msg":"hello","at":"2018-06-29T04:22:46.106052Z"}
 ```
 
 ### Error levels.
 
 ```ruby
-> Log.error('oops', more: 'fields')
+Log.error('oops', more: 'fields')
+```
+```
 {"more":"fields","level":"error","msg":"oops","at":"2018-06-29T04:22:46.106108Z"}
 ```
 
