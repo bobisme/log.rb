@@ -31,6 +31,6 @@ Log.error('oops', more: 'fields')
 ### Change where the output goes (STDOUT by default).
 
 ```ruby
-> Log.file = STDERR
-> Log.error('oops', more: 'fields')
+Log.file = STDERR
+Log.error('oops', more: 'fields')
 ```
